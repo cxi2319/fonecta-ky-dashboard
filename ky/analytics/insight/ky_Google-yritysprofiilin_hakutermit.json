@@ -1,0 +1,31 @@
+{
+  "$id": "ky_Google-yritysprofiilin_hakutermit",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Google-yritysprofiilin hakutermit",
+  "query": {
+    "metrics": [
+      "yext/LISTINGS_GOOGLE_SEARCH_TERM_IMPRESSIONS"
+    ],
+    "dimensions": [
+      "yext/RAW_SEARCH_TERM"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ],
+    "comparison": "PREVIOUS_PERIOD"
+  },
+  "display": {
+    "table": {
+      "showSummary": true,
+      "sort": {
+        "column": {
+          "metric": "yext/LISTINGS_GOOGLE_SEARCH_TERM_IMPRESSIONS"
+        },
+        "descending": true
+      }
+    }
+  }
+}

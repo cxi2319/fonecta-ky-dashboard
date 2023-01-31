@@ -1,0 +1,30 @@
+{
+    "$id": "ky_Google-yritysprofiilin_klikkaukset",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Google-yritysprofiilin klikkaukset",
+    "query": {
+        "metrics": [
+            "yext/LISTINGS_ACTIONS"
+        ],
+        "dimensions": [
+            "yext/ACTION"
+        ],
+        "filters": [
+            {
+                "filter": "yext/site",
+                "in": [
+                    "715"
+                ]
+            }
+        ]
+    },
+    "display": {
+        "table": {
+            "sort": {
+                "column": {
+                    "dimension": "yext/ACTION"
+                }
+            }
+        }
+    }
+}
