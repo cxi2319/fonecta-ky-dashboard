@@ -5,7 +5,6 @@
     "insights": [
         {
             "insight": "GOOGLE-CUSTOMER-ACTIONS",
-            "caption": "Google-yritysprofiilille tehdyt toimenpiteet valitulla ajanjaksolla. Toimenpiteet: Puhelut, Reittiohjeiden haut ja Verkkosivuston napsautukset. Puhelu lasketaan toimenpiteeksi silloin, kun Google-yritysprofiilin Soita-linkkiä klikataan mobiililaitteella riippumatta siitä, toteutuuko soitto vai ei.",
             "x": 0,
             "y": 0,
             "width": 3,
@@ -13,7 +12,6 @@
         },
         {
             "insight": "GOOGLE-CUSTOMER-ACTIONS-BY-DAY-OF-WEEK",
-            "caption": "Näin monta kertaa Google-yritysprofiilisi on saanut toimenpiteitä keskimäärin eri viikonpäiville jaettuna. Google-yritysprofiilille toteutuneiden toimenpiteiden määrän jakauma viikonpäivittäin. Toimenpiteet: Puhelut, Reittiohjeiden haut ja Verkkosivuston napsautukset. Puhelu lasketaan toimenpiteeksi silloin, kun Google-yritysprofiilin Soita-linkkiä klikataan mobiililaitteella riippumatta siitä, toteutuuko soitto vai ei.",
             "x": 3,
             "y": 0,
             "width": 3,
@@ -21,7 +19,6 @@
         },
         {
             "insight": "GOOGLE-VIEWS",
-            "caption": "Tarkastele yrityksesi Google-yritysprofiilin näyttökertoja Google-haussa ja Google Maps -karttahaussa valitulla ajanjaksolla.",
             "x": 0,
             "y": 1,
             "width": 3,
@@ -29,7 +26,6 @@
         },
         {
             "insight": "ky_Google-yritysprofiilin_klikkaukset",
-            "caption": "Tarkastele Google-yritysprofiilin toimenpiteiden klikkausmääriä valitulla ajanjaksolla. Toimenpiteet: Reittiohjeiden haku, Soitot, Verkkosivustolle siirtymiset, Viestin lähetykset ja Varauslinkin klikit.",
             "x": 3,
             "y": 1,
             "width": 3,
@@ -37,7 +33,6 @@
         },
         {
             "insight": "GOOGLE-SEARCHES",
-            "caption": "Google-hakutulosnäytöt, joissa Google-yritysprofiili (GBP) on esiintynyt Asiahaku-, Suorahaku- ja Brändihaku-tuloksissa. Asiahaku (Discovery) = GBP on näkynyt Local Pack -listassa eli TOP 3 yrityksen joukossa kun on haettu asiaa, palvelua tai tuotetta. Suorahaku (Direct) = GBP on näkynyt kokonaisena tietokorttina. Näissä tuloksissa on yleensä haettu yrityksesi / toimipisteesi nimeä. Brändihaku (Branded) = GBP on näkynyt Local Pack -listassa kun on haettu yrityksesi brändinimeä tai tuotemerkkiä.",
             "x": 0,
             "y": 2,
             "width": 3,
@@ -45,7 +40,6 @@
         },
         {
             "insight": "ky_Google-yritysprofiilin_hakutermit",
-            "caption": "Tarkastele hakutermejä, joilla Google-yritysprofiili on näkynyt Googlen hakutuloksissa valitulla ajanjaksolla. Vertaile saatuja näyttömääriä vastaavaan edelliseen ajanjaksoon. Muutosprosentti kertoo, ovatko hakutermillä saadut näyttömäärät kasvaneet vai laskeneet. Jos muutosprosenttia ei näy, Google-yritysprofiili ei ole saanut näyttökertoja hakutermillä molemmilla ajanjaksoilla. Minimiajanjakso 30 päivää.",
             "x": 0,
             "y": 3,
             "width": 6,
@@ -53,7 +47,6 @@
         },
         {
             "insight": "LISTINGS-DISCOVERABILITY",
-            "caption": "Google-hakutulosnäytöt, joissa Google-yritysprofiili (GBP) on esiintynyt Asiahaku-, Suorahaku- ja Brändihaku-tuloksissa. Asiahaku (Discovery) = GBP on näkynyt Local Pack -listassa eli TOP 3 yrityksen joukossa kun on haettu asiaa, palvelua tai tuotetta. Suorahaku (Direct) = GBP on näkynyt kokonaisena tietokorttina. Näissä tuloksissa on yleensä haettu yrityksesi / toimipisteesi nimeä. Brändihaku (Branded) = GBP on näkynyt Local Pack -listassa kun on haettu yrityksesi brändinimeä tai tuotemerkkiä.",
             "x": 3,
             "y": 4,
             "width": 3,
@@ -61,7 +54,6 @@
         },
         {
             "insight": "TOTAL-LISTINGS-CLICKS-TABLE",
-            "caption": "Tutki yrityksesi Kontakti-julkaisusivustojen profiilien tarkastelukertoja (mm. Fonecta.fi, Facebook) sekä Google-yritysprofiilille tehtyjä toimenpiteitä valitulla ajanjaksolla. Vertaile määriä vastaavaan edelliseen ajanjaksoon ja edelliseen vuoteen. Google-yritysprofiilin toimenpiteet sisältävät verkkosivustolle siirtymiset, puhelut sekä reittiohjeiden haut.",
             "x": 0,
             "y": 5,
             "width": 3,
@@ -69,7 +61,6 @@
         },
         {
             "insight": "TOTAL-LISTINGS-IMPRESSIONS-TABLE",
-            "caption": "Tutki yrityksesi palveluun kuuluvien profiilien näyttökertoja Kontakti-julkaisusivustojen hakutuloksissa valitulla ajanjaksolla sekä edelliseen ajanjaksoon ja vuoteen verrattuna. Muut julkaisusivustot sisältää mm. profiilinäytöt Fonecta.fi-hakutuloksissa sekä karttapalveluissa. Harmaa 'n/a'-tieto tarkoittaa, että palvelu ei pysty hakemaan tuloksia valitusta ajanjaksosta. Bing-tuloksia ei näytetä eurooppalaisilla yrityksillä.",
             "x": 3,
             "y": 5,
             "width": 3,

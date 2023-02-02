@@ -2,6 +2,7 @@
     "$id": "ky_Google-yritysprofiilin_klikkaukset",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Google-yritysprofiilin klikkaukset",
+    "description": "Tarkastele Google-yritysprofiilin toimenpiteiden klikkausmääriä valitulla ajanjaksolla. Toimenpiteet: Reittiohjeiden haku, Soitot, Verkkosivustolle siirtymiset, Viestin lähetykset ja Varauslinkin klikit.",
     "query": {
         "metrics": [
             "yext/LISTINGS_ACTIONS"

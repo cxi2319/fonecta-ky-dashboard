@@ -2,6 +2,7 @@
   "$id": "ky_Google-yritysprofiilin_hakutermit",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Google-yritysprofiilin hakutermit",
+  "description": "Tarkastele hakutermejä, joilla Google-yritysprofiili on näkynyt Googlen hakutuloksissa valitulla ajanjaksolla. Vertaile saatuja näyttömääriä vastaavaan edelliseen ajanjaksoon. Muutosprosentti kertoo, ovatko hakutermillä saadut näyttömäärät kasvaneet vai laskeneet. Jos muutosprosenttia ei näy, Google-yritysprofiili ei ole saanut näyttökertoja hakutermillä molemmilla ajanjaksoilla. Minimiajanjakso 30 päivää.",
   "query": {
     "metrics": [
       "yext/LISTINGS_GOOGLE_SEARCH_TERM_IMPRESSIONS"
