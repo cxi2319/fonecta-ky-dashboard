@@ -1,7 +1,7 @@
 {
     "$id": "ky_kontaktin_yleisraportti",
     "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
-    "name": "Kontaktin yleisraportti",
+    "name": "'Kontaktin yleisraportti'",
     "insights": [
         {
             "insight": "listings-listingsImpressionsByApp-line",
