@@ -1,0 +1,26 @@
+{
+    "$id": "ky_Keskimaaraiset_Google-toimenpiteet_viikonpaivittain",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Keskimääräiset Google-toimenpiteet viikonpäivittäin",
+    "description": "Näin monta kertaa Google-yritysprofiilisi on saanut toimenpiteitä keskimäärin viikonpäivittäin. Toimenpiteet: Puhelun, Ajo-ohjeen ja Verkkosivuston klikkaukset. Puhelun klikkaus lasketaan toimenpiteeksi silloin, kun Google-yritysprofiilin Soita-linkkiä klikataan mobiililaitteella riippumatta siitä, toteutuuko soitto vai ei.",
+    "query": {
+        "metrics": [
+            "yext/GOOGLE_CUSTOMER_ACTIONS"
+        ],
+        "dimensions": [
+            "yext/CUSTOMER_ACTION_TYPE",
+            "yext/DAY_OF_WEEK"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "DAYS_90"
+            }
+        ]
+    },
+    "display": {
+        "bar": {
+            "style": "STACKED"
+        }
+    }
+}

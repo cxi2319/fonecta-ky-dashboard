@@ -2,7 +2,7 @@
     "$id": "ky_Google-yritysprofiilin_klikkaukset",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Google-yritysprofiilin klikkaukset",
-    "description": "Tarkastele Google-yritysprofiilin toimenpiteiden klikkausmääriä valitulla ajanjaksolla. Toimenpiteet: Reittiohjeiden haku, Soitot, Verkkosivustolle siirtymiset, Viestin lähetykset ja Varauslinkin klikit.",
+    "description": "Tarkastele Google-yritysprofiilin toimenpiteiden klikkauksia valitulla ajanjaksolla. Toimenpiteet: Ajo-ohjeet \u003d Reitti-napin klikkaus, Klikkaa soittaaksesi \u003d Puhelinnumeron klikkaus (mobiililaitteella), Verkkosivusto \u003d Verkkosivustolle siirtyminen, Varaukset \u003d Varaa-linkin klikkaus, Viesti \u003d Viestin lähetys Viesti-chatin kautta (mobiililaitteella). Huom: Jos haluat saada Varaus-linkin klikkauksista tietoa, sinun tulee ottaa varaukset käyttöön Googlen palveluntarjoajan kautta. ",
     "query": {
         "metrics": [
             "yext/LISTINGS_ACTIONS"
@@ -12,12 +12,17 @@
         ],
         "filters": [
             {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            },
+            {
                 "filter": "yext/site",
                 "in": [
                     "715"
                 ]
             }
-        ]
+        ],
+        "comparison": "PREVIOUS_PERIOD"
     },
     "display": {
         "table": {

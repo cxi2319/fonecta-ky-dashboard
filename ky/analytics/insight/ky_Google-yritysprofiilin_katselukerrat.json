@@ -1,0 +1,26 @@
+{
+  "$id": "ky_Google-yritysprofiilin_katselukerrat",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Google-yritysprofiilin katselukerrat",
+  "description": "Tutki Google-yritysprofiilisi katselukertoja laitteittain. Yksittäisen käyttäjän useat katselukerrat yhden päivän aikana tulkitaan vain yhdeksi katselukerraksi.",
+  "query": {
+    "metrics": [
+      "yext/LISTINGS_IMPRESSIONS"
+    ],
+    "dimensions": [
+      "yext/DEVICE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ],
+    "comparison": "PREVIOUS_PERIOD"
+  },
+  "display": {
+    "table": {
+      "showSummary": true
+    }
+  }
+}

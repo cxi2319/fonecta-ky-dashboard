@@ -1,0 +1,32 @@
+{
+    "$id": "ky_Muiden_sivustojen_profiilien_katselukerrat",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Muiden sivustojen profiilien katselukerrat",
+    "description": "Tutki yrityksesi muiden Kontakti-julkaisusivustojen profiilien katselukertoja (Fonecta.fi, Facebook ym.) valitulla ajanjaksolla. Vertaile lukuja edelliseen vastaavaan ajanjaksoon.",
+    "query": {
+        "metrics": [
+            "yext/PROFILEVIEWS"
+        ],
+        "dimensions": [
+            "yext/SITES"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            }
+        ],
+        "comparison": "PREVIOUS_PERIOD"
+    },
+    "display": {
+        "table": {
+            "showSummary": true,
+            "sort": {
+                "column": {
+                    "metric": "yext/PROFILEVIEWS"
+                },
+                "descending": true
+            }
+        }
+    }
+}
