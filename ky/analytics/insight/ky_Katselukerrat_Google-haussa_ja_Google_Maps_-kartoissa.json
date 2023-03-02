@@ -1,0 +1,26 @@
+{
+    "$id": "ky_Katselukerrat_Google-haussa_ja_Google_Maps_-kartoissa",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Katselukerrat Google-haussa ja Google Maps -kartoissa",
+    "description": "Google-yritysprofiilin katselukerrat Google-haussa ja Google Maps -kartoissa valitulla ajanjaksolla.",
+    "query": {
+        "metrics": [
+            "yext/LISTINGS_IMPRESSIONS"
+        ],
+        "dimensions": [
+            "yext/WEEKS",
+            "yext/APP"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            }
+        ]
+    },
+    "display": {
+        "line": {
+            "area": true
+        }
+    }
+}

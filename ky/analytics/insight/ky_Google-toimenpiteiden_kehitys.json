@@ -1,0 +1,26 @@
+{
+    "$id": "ky_Google-toimenpiteiden_kehitys",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Google-toimenpiteiden kehitys",
+    "description": "Tarkastele Google-yritysprofiilin toimenpiteitä valitulla ajanjaksolla. Toimenpiteet: Ajo-ohjeet \u003d Reitti-napin klikkaus, Puhelun klikkaukset \u003d Puhelinnumeron klikkaus (mobiililaitteella), Verkkosivusto \u003d Verkkosivustolle siirtyminen, Viesti \u003d Viestin lähetys Viesti-chatin kautta (mobiililaitteella), Varaukset \u003d Varaa-linkin klikkaus. Huom: Jos haluat saada Varaus-linkin klikkauksista tietoa, sinun tulee ottaa varaukset käyttöön Googlen palveluntarjoajan kautta.",
+    "query": {
+        "metrics": [
+            "yext/LISTINGS_ACTIONS"
+        ],
+        "dimensions": [
+            "yext/WEEKS",
+            "yext/ACTION"
+        ],
+        "filters": [
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
+            }
+        ]
+    },
+    "display": {
+        "line": {
+            "area": true
+        }
+    }
+}

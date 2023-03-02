@@ -4,14 +4,14 @@
     "name": "'Kontaktin yleisraportti'",
     "insights": [
         {
-            "insight": "listings-listingsImpressionsByApp-line",
+            "insight": "c_Katselukerrat_Google-haussa_ja_Google_Maps_-kartoissa109650",
             "x": 0,
             "y": 0,
             "width": 3,
             "height": 1
         },
         {
-            "insight": "listings-listingsActionsByWeek-line",
+            "insight": "ky_Google-toimenpiteiden_kehitys",
             "x": 3,
             "y": 0,
             "width": 3,
